@@ -1,0 +1,41 @@
+#as {
+            font-size: 20px;
+            color: rgb(20, 18, 18);
+            background-color: yellow;
+            border: 2px solid black;
+        }
+
+        #boy {
+            font-size: 20px;
+            color: rgb(20, 18, 18);
+            background-color: cyan;
+            border: 2px solid black;
+        }
+        #girl {
+            font-size: 20px;
+            color: rgb(20, 18, 18);
+            background-color: pink;
+            border: 2px solid black;
+        }
+        * {
+            font-family: cursive;
+            color: rgb(203, 26, 26);
+        }
+        div,div,div,p {
+            color: red;
+            padding: 10px;
+            //border: 2px solid black;
+        }
+        #n {
+            padding: 10px;  
+            margin: 90px;
+            border: 2px solid black;
+        }
+        #btn :focus{
+            
+            background-color: rgb(0, 0, 0);
+            
+        }
+        #btn :hover{
+           color: rgb(205, 68, 68);
+        }

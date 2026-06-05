@@ -1,0 +1,75 @@
+::-webkit-validation-bubble {
+    border: 1px solid rgb(156, 128, 128);
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid rgb(205, 170, 170);
+    padding: 10px;
+}
+*{
+    font-family: cursive;
+    background-color:rgb(160, 200, 186);
+}
+#as{
+    background-color: rgb(144, 162, 159);
+    color: rgb(0, 0, 0);
+}
+#a{
+   background-color: rgb(131, 123, 130);
+    color: rgb(62, 18, 18); 
+}
+#z{
+    background-color: rgb(113, 88, 88);
+    color: rgb(148, 104, 104); 
+    font-size: 20px;
+}
+#b{
+    background-color: rgba(84, 114, 148, 0.751);
+    color: rgb(224, 214, 214); 
+    font-size: 20px;
+}
+#x{
+    background-color: rgb(65, 85, 64);
+    color: rgb(3, 3, 3); 
+    font-size: 20px;
+}
+#v{
+    background-color: rgb(202, 97, 97);
+    color: rgb(61, 57, 57); 
+    font-size: 20px;
+}
+#m{
+    background-color: rgb(104, 79, 104);
+    color: rgb(130, 122, 122); 
+    font-size: 20px;
+}
+#j{
+    background-color: rgb(108, 108, 108);
+    color: rgb(65, 9, 9); 
+    font-size: 20px;
+}
+#p{
+    background-color: rgb(126, 126, 35);
+    color: rgb(3, 3, 3); 
+    font-size: 20px;
+}
+#o{
+    background-color: rgb(78, 78, 80);
+    color: rgb(3, 3, 3); 
+    font-size: 20px;
+}
+#y{
+    background-color: rgb(147, 128, 128);
+    color: rgb(3, 3, 3); 
+    font-size: 20px;
+}
+#i{
+    background-color: rgb(35, 126, 35);
+    color: rgb(3, 3, 3); 
+    font-size: 20px;
+}
+#u{
+    background-color: rgb(111, 101, 101);
+    color: rgb(3, 3, 3); 
+    font-size: 20px;
+}
