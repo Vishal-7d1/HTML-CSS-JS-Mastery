@@ -2,19 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medium</title>
+    <title>Medium Clone</title>
+    <link rel="stylesheet" href="task6.css">
 </head>
 <body>
-    <h1>Medium</h1>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Library</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Stories</a></li>
-        <li><a href="#"></a></li>
-    
-    </ul>
-    
+
+    <header>
+        <div class="logo">Medium</div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+        </div>
+    </header>
+
+    <div class="container">
+
+        <aside class="sidebar">
+            <ul>
+                <li>🏠 Home</li>
+                <li>📚 Library</li>
+                <li>👤 Profile</li>
+                <li>📝 Stories</li>
+                <li>📊 Stats</li>
+            </ul>
+
+            <hr>
+
+            <h3>👤Following</h3>
+            <p>+&nbsp;&nbsp;&nbsp;&nbsp;Find writers and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;publications to follow.</p>
+        </aside>
+
+
+        <main class="content">
+            <h5 id="move">Get unlimited access to the best of medium for less than $1/week.</h5>
+
+            <div class="tabs">
+                <span class="active">For you</span>
+                <span>Featured</span>
+            </div>
+
+            <div class="article">
+                <div class="article-text">
+                    <small>Leo Goldin • Mar 2</small>
+                    <h2>Claude Code is Great</h2>
+                    <p>You Just Need to Learn How to Use It</p>
+                    
+                </div>
+
+                <img src="photos/2.jpg" alt="Article Image">
+            </div>
+
+            <div class="article">
+                <div class="article-text">
+                    <small>Marina Wyss • Feb 23</small>
+                    <h2>Should You Still Learn to Code in 2026?</h2>
+                    <p>The answer isn't as obvious as it used to be.</p>
+                    
+                </div>
+
+                <img src="photos/1.jpg" alt="Article Image">
+            </div>
+
+            <div class="article">
+                <div class="article-text">
+                    <small>Michal Malewicz • Mar 25</small>
+                    <h2>Vibe Coding is OVER.</h2>
+                    <p>Here's What Comes Next.</p>
+                </div>
+
+                <img src="photos/3.jpg" alt="Article Image">
+            </div>
+
+        </main>
+
+    </div>
+
 </body>
 </html>
