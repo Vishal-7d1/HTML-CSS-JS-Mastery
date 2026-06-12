@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medium</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="task4.css">
 </head>
 <body>
     <div class="layout">         
@@ -12,6 +12,7 @@
             <div class="nav-left">
                 <div class="menu-icon">&#9776;</div>
                 <h1 class="logo">Medium</h1>
+                
                 <input type="search" placeholder="🔍 Search">
             </div>
             <div class="nav-right">
@@ -27,62 +28,56 @@
         <div class="main-container">
             <nav class="sidebar">
                 <ul class="no-bullets">
-                    <li class="active"><a href="index.html"></a>🏠 Home</li>
-                    <li><a href="library.html"></a>📑 Library</li>
-                    <li><a href="#"></a>👤 Profile</li>
-                    <li><a href="#"></a>📝 Stories</li>
-                    <li><a href="#"></a>📊 Stats</li>
+                    <li class="active">🏠 Home</li>
+                    <li>📑 Library</li>
+                    <li>👤 Profile</li>
+                    <li>📝 Stories</li>
+                    <li>📊 Stats</li>
                     <hr class="nav-divider">
                     <li>👥 Following</li>
-                    <li>➕ Find writers and publications to follow</li>
-                    <li>See suggestions</a></li>
+                    <li>➕ Find writers and publications to follow.</li>
+                    <li><a href="#">See suggestions</a></li>
                 </ul>
             </nav>
-
-                  <main class="content">
-            <h5 id="move">Get unlimited access to the best of medium for less than $1/week.</h5>
-
-            <div class="tabs">
-                <span class="active">For you</span>
-                <span>Featured</span>
-            </div>
-            
-            <div class="art">
-                <div class="art-text">
-                    <small>Leo Goldin • Mar 2</small>
-                    <h2>Claude Code is Great</h2>
-                    <p>You Just Need to Learn How to Use It</p>
-                    
-                </div>
-
-                <img src="photos/2.jpg" alt="Art Image">
-            </div>
-
-            <div class="art">
-                <div class="art-text">
-                    <small>Marina Wyss • Feb 23</small>
-                    <h2>Should You Still Learn to Code in 2026?</h2>
-                    <p>The answer isn't as obvious as it used to be.</p>
-                    
-                </div>
-                <div class="art">
-                    <img src="photos/1.jpg" alt="Art Image">
-                </div>
-
+            <main class="feed">
+                <header class="feedTabs">
+                    <span class="active-tab">For you</span>
+                    <span>Featured</span>
+                </header>
                 
-            </div>
+                <article class="post">
+                    <div class="post-content">
+                        <p class="author">Leo Godin · Mar 2</p>
+                        <h2>Claude Code is Great</h2>
+                        <p class="content">You Just Need to Learn How to Use It</p>
+                    </div>
+                    <div class="post-image">
+                        <img src="photos/4.avif" alt="Post Image">
+                    </div>
+                </article>
+                
+                <article class="post">
+                    <div class="post-content">
+                        <p class="author">In Data Science Collective by Marina Wyss · Feb 23</p>
+                        <h2>Should You Still Learn to Code in 2026?</h2>
+                        <p class="content">The answer isn't as obvious as I used to believe.</p>
+                    </div>
+                    <div class="post-image">
+                        <img src="photos/1.jpg">
+                    </div>
+                </article>
 
-            <div class="art">
-                <div class="art-text">
-                    <small>Michal Malewicz • Mar 25</small>
-                    <h2>Vibe Coding is OVER.</h2>
-                    <p>Here's What Comes Next.</p>
-                </div>
-
-                <img src="photos/3.jpg" alt="Art Image">
-            </div>
-
-        </main>
+                <article class="post">
+                    <div class="post-content">
+                        <p class="author">In Age of Awareness by Sam Liberty · Dec 10</p>
+                        <h2>The 5-Minute Mental Reset That Actually Works</h2>
+                        <p class="content">An evidence-based routine you can try right now.</p>
+                    </div>
+                    <div class="post-image">
+                         <img src="photos/2.jpg">
+                    </div>
+                </article>
+            </main>
 
             <aside class="rightBar">
                 <h3>Staff Picks</h3>
@@ -93,17 +88,14 @@
                 </div>
                 <div class="staffPicks">
                     <span>John DeVore</span>
-                    <p><strong>Cigarettes are bad.I miss them</strong></p>
-                    <span>may 29</span>
-
+                    <p><strong>Ciggarettes are bad. I miss them.</strong></p>
+                    <span>May 29</span>
                 </div>
                 <div class="staffPicks">
-                    <span>In <b>Bootcamp </b> by Divya Sabade</span>
-                    <p><strong>Gatori Fishing in America</strong></p>
-                    <span>5d ago</span>
-
+                    <span>In Bootcamp by Divya Sabade</span>
+                    <p><strong>I Sat in Engineering Meetings for Two Years Without Understanding What a Branch Was</strong></p>
+                    <span>6d ago <br> <br> See the full list </span>
                 </div>
-
                 <div class="topics">
                     <h3>Recommended topics</h3>
                     <button>Technology</button>
@@ -113,16 +105,9 @@
                     <button>Machine Learning</button>
                     <button>Politics</button>
                     <button>Cryptocurrency</button>
-                    <button>Cryptocurrency</button>
                 </div>
             </aside>
         </div>
     </div>
-
-
-    <footer>
-
-
-    </footer>
 </body>
 </html>
