@@ -1,0 +1,1 @@
+generateBill(500,300);
