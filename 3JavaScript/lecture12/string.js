@@ -36,3 +36,5 @@ console.log(e.endsWith("dwo"));
 //
 console.log(e.indexOf)
 
+
+
