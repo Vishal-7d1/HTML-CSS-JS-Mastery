@@ -56,7 +56,7 @@ console.log(employees);
 console.log(frontendDev);
 console.log(manager );
 
-employees.work();
+employees.work(employee);
 employees.showDetails();
 
 frontendDev.work();
