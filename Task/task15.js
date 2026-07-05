@@ -61,7 +61,6 @@ employees.showDetails();
 
 frontendDev.work();
 frontendDev.writeCode();
-
 frontendDev.buildUI();
 
 manager.work();
