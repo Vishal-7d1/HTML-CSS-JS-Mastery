@@ -64,5 +64,4 @@ frontendDev.writeCode();
 frontendDev.buildUI();
 
 manager.work();
-
 manager.conductMeeting();
